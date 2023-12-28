@@ -8,6 +8,22 @@ body{
     font-weight: 300;
 }
 
+a:link {
+    color: white;
+}
+a:active {
+    color: white;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: yellow;
+}
+
+
+
+
 .card {
     position: relative;
     height: 460px;
@@ -17,7 +33,9 @@ body{
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     #background-image: linear-gradient(200deg,  #1D45A0, #153595);
-    background-image: linear-gradient(300deg,  #1D45A0, #050550);
+    #background-image: linear-gradient(300deg,  #1D45A0, #050550);
+    background-image: url("blue_cardstock.png");
+    background-size: 460px;
 }
 
 .qr {
@@ -25,11 +43,11 @@ body{
     height: 95px;
     width: 95px;
     margin:auto;
-    left: 35%;
-    top: 40%;
+    left: 69%;
+    top: 80%;
     object-fit: contain;
     border-radius: 12px;
-    background-image: linear-gradient(to right, #FF0000, #DDDDDD);
+    #background-image: linear-gradient(to right, #FF0000, #DDDDDD);
 }
 
 
@@ -162,4 +180,37 @@ i {
 .body li:hover h3{color:#fff}
 .body li:hover p{color:#fff}
 
+.embossed{
+  color: #f0f0f0;
+  font-size: 100px;
+  font-family: Robot;
+  background-color: #666666;
+  text-shadow: 1px 4px 4px #555;
+  text-align: center;
+  -webkit-background-clip: text;
+    -moz-background-clip: text;
+
+}
+
+.emp_name {
+    font-size: 22px;
+    font-family: Roboto;
+    background: linear-gradient(178deg, #ffffff,#fce494); /* W3C */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    #text-shadow: rgba(245,245,245,0.5) 2px 2px 1px;
+}
+
+.emp_title {
+    font-size: 12px;
+    font-family: Roboto;
+    background: linear-gradient(178deg, #ffffff,#fce494); /* W3C */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+ }
 
