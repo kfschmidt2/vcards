@@ -15,7 +15,7 @@ a:active {
     color: white;
 }
 a:visited {
-    color: gray;
+    color: white;
 }
 a:hover {
     color: yellow;
@@ -204,8 +204,9 @@ i {
 }
 
 .emp_title {
-    font-size: 12px;
+    font-size: 14px;
     font-family: Roboto;
+    letter-spacing:2px;
     background: linear-gradient(178deg, #ffffff,#fce494); /* W3C */
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -214,3 +215,8 @@ i {
     text-transform: uppercase;
  }
 
+.comp_name {
+    font-size: 17px;
+    font-family: Roboto;
+    color: #586d96;
+}
