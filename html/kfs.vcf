@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Schmidt;Karl
+FN:Karl F Schmidt
+ORG:Sentonix Pharmaceuticals
+TITLE:Chief Operating Officer
+TEL;TYPE=WORK,VOICE:6173886440
+ADR;TYPE=WORK:;;Lyons Ct;Watertown;MA;02472;US
+EMAIL;TYPE=PREF,INTERNET:kschmidt@sentonixpharma.com
+END:VCARD
